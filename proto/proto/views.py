@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 
+from . import api
 
 def event_handler(request):
     print(request)
